@@ -324,24 +324,6 @@ body {
   
 }
 
-.green{
-  position: absolute;
-  /* position: relative; */
-  top: 1687px;
-  height: 250px;
-  width: 250px;
-}
-.img_1{
-  /* position: absolute; */
-  position: relative;
-}
-/* .img_1:hover{
-  
-  transform:  scale(0.8); 
-            
-  transition: ease all 0.5s;
-} */
-
 .food-img{
   position: relative;
   width: 250px;
@@ -354,18 +336,6 @@ body {
   transition: ease all 0.5s;
 }
 
-  /* 
-  .tttt1:hover{
-    position: absolute;
-    top: -40%;
-    transform:  scale(1.1); 
-              
-    transition: ease all 0.5s;
-  } 
-.tttt2{
-  position: absolute;
-} 
-*/
 
 .food-menu-item {
   display: flex;
@@ -599,14 +569,6 @@ body {
     font-size: 1.3rem;
     font-weight: 500;
   }
-/* 
-  .logo {
-    position: absolute;
-    top: 50px;
-    right: 15px;
-    font-size: 2rem;
-    color: #005b39;
-  } */
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
@@ -710,7 +672,7 @@ body {
       <div class="showcase-container"  id="home">
         <h1 class="main-title">Awaken Your Inner Barista</h1>
         <p class="sub-title">Precision in Every Pou!</p>
-        <a href="#food-menu" class="btn btn-primary btn-primary-shadow">Menu</a>
+        <a href="#food" class="btn btn-primary btn-primary-shadow">Menu</a>
       </div>
     </section>
     
@@ -772,9 +734,6 @@ We’re on a simple, soul-satisfying mission to radiate positively delicious vib
         <div class="food-menu-item">
           <div class="food-img" >
             <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/100501.jpg" alt="" class="img_1"/>
-            <!-- <div class="green">
-              <img src="https://assets-global.website-files.com/5a9423a3f702750001758d4f/60f1a2040821782068ec20df_%23355e3b%20(1).png" />
-            </div> -->
           </div>
           <div class="food-description">
             <h2 class="food-titile">Java Chip <br>Frappuccino</h2>
@@ -848,9 +807,6 @@ We’re on a simple, soul-satisfying mission to radiate positively delicious vib
         <div class="food-menu-item">
           <div class="food-img" >
             <img src="https://app.wendys.com/unified/assets/menu/pg-cropped/1883_small_US_en.png" alt="" class="img_1"/>
-            <!-- <div class="green">
-              <img src="https://assets-global.website-files.com/5a9423a3f702750001758d4f/60f1a2040821782068ec20df_%23355e3b%20(1).png" />
-            </div> -->
           </div>
           <div class="food-description">
             <h2 class="food-titile">Pretzel Baconator</h2>
@@ -902,9 +858,6 @@ We’re on a simple, soul-satisfying mission to radiate positively delicious vib
         <div class="food-menu-item">
           <div class="food-img" >
             <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?resize=768,574" alt="" class="img_1"/>
-            <!-- <div class="green">
-              <img src="https://assets-global.website-files.com/5a9423a3f702750001758d4f/60f1a2040821782068ec20df_%23355e3b%20(1).png" />
-            </div> -->
           </div>
           <div class="food-description">
             <h2 class="food-titile">Pretzel Baconator</h2>
