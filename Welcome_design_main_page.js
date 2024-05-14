@@ -11,12 +11,12 @@ setTimeout(delayFunction, 8000);
     }
 
         var button_1 = document.getElementById("Show_menu_1");
-        var menu_1 = document.getElementById("food-menu_1");
+        var menu_1 = document.getElementById("food-menu-1");
         
       var button_2 = document.getElementById("Show_menu_2");
       var menu_2 = document.getElementById("food-menu_2");
       
-      var button_3 = document.getElementById("Show_menu_3");
+      var button_3 = document.getElementById("Show_menu_2");
       var menu_3 = document.getElementById("food-menu_3");
 
       button_1.addEventListener("click", function() {
